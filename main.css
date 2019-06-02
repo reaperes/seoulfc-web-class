@@ -1,5 +1,5 @@
 * {
-  font: bold 15px/38px NanumGothic, 나눔고딕, sans-serif !important;
+  font: 14px NanumGothic, 나눔고딕, sans-serif !important;
 }
 
 body {
@@ -55,6 +55,10 @@ button.search-button > img {
   padding: 0 24px;
   color: #fff;
   cursor: pointer;
+}
+
+.menu > li > a {
+  font: bold 15px/38px NanumGothic, 나눔고딕, sans-serif !important;
 }
 
 .menu > li:hover {
