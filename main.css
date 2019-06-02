@@ -2,6 +2,10 @@
   font: bold 15px/38px NanumGothic, 나눔고딕, sans-serif !important;
 }
 
+body {
+  /*background-color: pink;*/
+}
+
 header {
   display: flex;
   width: 1024px;
@@ -31,25 +35,55 @@ button.search-button > img {
   cursor: pointer;
 }
 
-nav.menu {
+.menu {
+  display: flex;
+  justify-content: space-evenly;
   height: 42px;
   background-color: #5c5c5c;
 }
 
-nav.menu ol {
-  display: flex;
-  justify-content: space-evenly;
+.menu a {
+  color: #fff;
+  text-decoration: none;
 }
 
-nav.menu li {
+.menu li {
+  position: relative;
   display: flex;
   align-items: center;
   height: 42px;
-  padding: 0 2%;
+  padding: 0 24px;
   color: #fff;
   cursor: pointer;
 }
 
-nav.menu li:hover {
+.menu > li:hover {
   background-color: rgb(44, 171, 149);
+}
+
+ol.sub-menu {
+  /*visibility: hidden;*/
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 42px;
+  left: 0;
+  padding: 8px 24px 12px;
+  background-color: #fff;
+}
+
+ol.sub-menu a {
+  color: #4a4a4a
+}
+
+ol.sub-menu a:hover {
+  color: rgb(44, 171, 149);
+  text-decoration: underline;
+  font-weight: 900 !important;
+}
+
+ol.sub-menu li {
+  width: 130px;
+  height: 28px;
+  padding: 0;
 }
