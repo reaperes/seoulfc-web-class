@@ -61,8 +61,12 @@ button.search-button > img {
   background-color: rgb(44, 171, 149);
 }
 
+.menu > li:hover > ol.sub-menu {
+  visibility: visible;
+}
+
 ol.sub-menu {
-  /*visibility: hidden;*/
+  visibility: hidden;
   display: flex;
   position: absolute;
   flex-direction: column;
