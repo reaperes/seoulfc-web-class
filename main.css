@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  width: 1024px;
+  height: 90px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input.search {
+  float: left;
+  width: 100px;
+  height: 32px;
+  padding: 3px;
+  box-sizing: border-box;
+  line-height: 32px;
+  border: 1px solid #cdcdcd;
+}
+
+button.search-button {
+  padding: 0;
+  border: 0;
+}
+
+button.search-button > img {
+  height: 32px;
+  cursor: pointer;
+}
