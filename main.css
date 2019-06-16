@@ -198,6 +198,7 @@ footer > div.footer-main {
 
 footer div.footer-main ul {
   display: flex;
+  margin-bottom: 10px;
 }
 
 footer div.footer-main li {
@@ -213,6 +214,14 @@ footer div.footer-main a {
   color: #545454;
   text-decoration: none;
   font-weight: bold;
+}
+
+footer div.footer-main li:first-child {
+  padding-left: 0;
+}
+
+footer div.footer-main address {
+  line-height: 18px;
 }
 
 footer > div.security-count {
