@@ -169,6 +169,8 @@ section.slide-banner {
 section.slide-banner ul {
   position: relative;
   display: flex;
+  left: 0;
+  transition: .3s left;
 }
 
 section.slide-banner img {
