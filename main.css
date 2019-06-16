@@ -180,3 +180,36 @@ section.slide-banner img {
   height: 240px;
   float: left;
 }
+
+footer {
+  display: flex;
+  padding: 15px 60px;
+  background-color: #e4e4e4;
+}
+
+footer > div.footer-logo {
+  margin-right: 40px;
+}
+
+footer > div.footer-main {
+  flex: 1;
+}
+
+footer > div.security-count {
+  margin-left: 40px;
+}
+
+footer div.security {
+  font-size: 11px;
+  margin-bottom: 5px;
+  color: #666;
+  font-family: 'Dotum', '돋움', 'NanumGothic', '나눔고딕', sans-serif;
+}
+
+footer div.security span {
+  display: block;
+  margin-top: 2px;
+  color: #0096b5;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
