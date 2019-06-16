@@ -1,5 +1,5 @@
 * {
-  font: 14px NanumGothic, 나눔고딕, sans-serif !important;
+  font: 14px NanumGothic, 나눔고딕, sans-serif;
 }
 
 body {
@@ -99,4 +99,59 @@ ol.sub-menu li {
 div.slide img {
   max-width: 100%;
   max-height: 100%;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+section {
+  width: 300px;
+}
+
+section h2 {
+  font: 600 18px NanumGothic, 나눔고딕, sans-serif;
+}
+
+section div.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #5c5c5c;
+  padding-bottom: 15px;
+}
+
+section.notice div.section-header a {
+  width: 40px;
+  height: 21px;
+  margin-top: 6px;
+  padding-right: 20px;
+  color: #333;
+  background: url("images/more.png") no-repeat 0 0;
+  cursor: pointer;
+}
+
+section.notice li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+section.notice li a div {
+  display: inline-block;
+  width: 190px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #000;
+}
+
+section.notice li time {
+  width: 80px;
+  font-size: 12px;
+  color: #8c8c8c;
 }
