@@ -185,6 +185,7 @@ footer {
   display: flex;
   padding: 15px 60px;
   background-color: #e4e4e4;
+  font: 12px NanumGothic, 나눔고딕, sans-serif;
 }
 
 footer > div.footer-logo {
@@ -193,6 +194,25 @@ footer > div.footer-logo {
 
 footer > div.footer-main {
   flex: 1;
+}
+
+footer div.footer-main ul {
+  display: flex;
+}
+
+footer div.footer-main li {
+  padding: 0 10px;
+  border-right: 1px solid;
+}
+
+footer div.footer-main a.privacy-policy {
+  color: red;
+}
+
+footer div.footer-main a {
+  color: #545454;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer > div.security-count {
